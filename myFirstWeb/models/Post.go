@@ -1,9 +1,9 @@
 package models
 
 type Post struct {
-	id      string
-	title   string
-	content string
+	Id      string
+	Title   string
+	Content string
 }
 
 func NewPost(id, title, content string) *Post {
